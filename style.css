@@ -1,0 +1,72 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  text-align: center;
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* System Layout */
+.system {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Planet Styling */
+.planet {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #aaa;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+/* Active Planet */
+.planet.active {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Earth Styling */
+.earth {
+  background-color: #4caf50; /* Green for Earth */
+}
+
+/* Moon Styling */
+.moon {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+/* Hover Effect */
+.planet:hover {
+  transform: scale(1.1);
+}
